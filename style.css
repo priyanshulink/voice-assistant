@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,rgb(1, 42, 78),rgb(229, 8, 148)); 
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 20vw;
+}
+h1{
+    color: wheat;
+}
+#name{
+    color: rgb(236, 8, 153);
+    font-size: 45px;
+}
+#va{
+    color: rgb(6, 180, 243);
+    font-size: 45px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn{
+  width: 30%;
+  background: linear-gradient(to right,rgb(17, 161, 238),rgb(229, 8, 148));
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: wheat;
+  box-shadow: 2px,2px,10px,rgb(17, 161, 238),2px,2px,10px,rgb(229, 8, 148);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#btn:hover{
+  box-shadow: 2px,2px,20px,rgb(17, 161, 238),2px,2px,20px,rgb(229, 8, 148);
+  letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 600px){
+    
+body{
+    background: linear-gradient(to right,rgb(1, 42, 78),rgb(229, 8, 148)); 
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 50vw;
+}
+h1{
+    color: wheat;
+}
+#name{
+    color: rgb(236, 8, 153);
+    font-size: 45px;
+}
+#va{
+    color: rgb(6, 180, 243);
+    font-size: 45px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn{
+  width: 50%;
+  background: linear-gradient(to right,rgb(17, 161, 238),rgb(229, 8, 148));
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: wheat;
+  box-shadow: 2px,2px,10px,rgb(17, 161, 238),2px,2px,10px,rgb(229, 8, 148);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#btn:hover{
+  box-shadow: 2px,2px,20px,rgb(17, 161, 238),2px,2px,20px,rgb(229, 8, 148);
+  letter-spacing: 2px;
+}
+}
